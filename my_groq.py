@@ -4,7 +4,7 @@ from groq import Groq
 import streamlit as st
 
 
-client = Groq(api_key=os.environ.get('groq_pass'))
+client = Groq(api_key= st.secrets["groq_pass"])
 
 st.set_page_config(
     page_title="Dataset Analyzer",
