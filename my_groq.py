@@ -47,7 +47,7 @@ if user_prompt:
 
     Question to respond: {user_prompt}
 
-    Please ensure all keywords are detected even if they are part of a continuous string.
+    Match keywords within any continuous string of letters, even if there are no spaces separating them. For example, 'machinelearning,python,sql' should match 'python' and "learning" as well.
 
     Calculate the similarity score of the given keyword with the closest match in the dataset and then return the relevant information of the records with highest similarity score.
 
