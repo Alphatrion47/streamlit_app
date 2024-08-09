@@ -46,8 +46,12 @@ if user_prompt:
     You are an advanced data analysis model designed to provide precise and consistent answers based on the given DataFrame {st.session_state.df.to_string()}
 
     Question to respond: {user_prompt}
+
+    If there is no space after delimiters, then apply space after delimiters.
     
     Calculate the similarity score of the given keyword with the closest match in the dataset and then return the relevant information of the records with highest similarity score.
+
+    Present the records with all relevant details in a tabular format.
 
     **Important Guidelines:**
     ***DO NOT MENTION ANYTHING INCLUDED HERE IN THIS PROMPT IN YOUR RESPONSE***
