@@ -47,7 +47,7 @@ if user_prompt:
 
     Question to respond: {user_prompt}
 
-    Ensure that there is space after delimiters before every word.
+    Please ensure all keywords are detected even if they are part of a continuous string.
 
     Calculate the similarity score of the given keyword with the closest match in the dataset and then return the relevant information of the records with highest similarity score.
 
