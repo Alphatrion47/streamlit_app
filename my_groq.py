@@ -47,8 +47,8 @@ if user_prompt:
 
     Question to respond: {user_prompt}
 
-    If there is no space after commas, then apply space after commas. So that the string can be treated as separate words instead of a single string.
-    
+    Ensure that there is space after delimiters before every word.
+
     Calculate the similarity score of the given keyword with the closest match in the dataset and then return the relevant information of the records with highest similarity score.
 
     Present the records with all relevant details in a tabular format.
