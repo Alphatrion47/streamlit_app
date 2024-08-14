@@ -77,7 +77,7 @@ if user_prompt:
             }
         ],
         model="llama3-8b-8192",
-        temperature = 1
+        temperature = 0
     )
 
     assistant_response = chat.choices[0].message.content  
