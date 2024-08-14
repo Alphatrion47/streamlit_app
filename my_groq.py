@@ -51,7 +51,7 @@ if user_prompt:
 
     Secondly, calculate the similarity score of the keyword given in question with the closest match in the dataset and then return the relevant information of the records with highest similarity score.
 
-    Present the records with all relevant details in a tabular format. Also provide a list of delimiters used in the input. Finally provide list of records which do not contain any delimiters.
+    Present the records with all relevant details in a tabular format.
 
 
 
@@ -77,7 +77,7 @@ if user_prompt:
             }
         ],
         model="llama3-8b-8192",
-        temperature = 0
+        temperature = 1
     )
 
     assistant_response = chat.choices[0].message.content  
