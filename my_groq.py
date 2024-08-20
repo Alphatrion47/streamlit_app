@@ -47,11 +47,11 @@ if user_prompt:
 
     Question to respond: {user_prompt}
 
-    First split the continuous string using delimiters.
+    First split the continuous string using delimiters like "," and "/".
 
     Secondly, calculate the similarity score of the keyword given in question with the closest match in the dataset and then return the relevant information of the records with highest similarity score.
 
-    Present the records with all relevant details in a tabular format.
+    Present the records with all relevant and unchanged details in a tabular format.
 
 
 
